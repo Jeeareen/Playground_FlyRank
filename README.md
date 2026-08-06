@@ -1,15 +1,24 @@
-# React + TypeScript + Vite
+# Playground FlyRank Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository is built for an assignment and to learn accessible component patterns in React + TypeScript.
 
-Currently, two official plugins are available:
+## Purpose
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- This project contains a hand-built modal dialog, tabs, and disclosure component.
+- It is meant to practice W3C ARIA Authoring Practices, keyboard interaction, and focus management.
+- It also includes a small shadcn/ui reference setup to compare against the hand-built components.
 
-## React Compiler
+## What is included
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- `playground/components/Modal.tsx` - custom modal dialog implementation
+- `playground/components/Tabs.tsx` - custom tabs implementation
+- `playground/components/Disclosure.tsx` - custom disclosure implementation
+- `playground/NOTES.md` - comparison notes between the hand-built version and shadcn/ui
+- `src/components/ui/` - generated shadcn/ui dialog and tabs components for reference
+
+## Notes
+
+This repo is not intended as a production app. It is a learning exercise for building accessible UI components by hand and seeing how shadcn/ui structures similar components.
 
 ## Expanding the ESLint configuration
 
